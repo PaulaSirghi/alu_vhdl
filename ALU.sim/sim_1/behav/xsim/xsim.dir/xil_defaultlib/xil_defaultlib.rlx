@@ -1,0 +1,24 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd,1638362831,vhdl,,,,onebitadder,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd,1641796980,vhdl,,,,alu,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd,1640029417,vhdl,,,,div,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ID.vhd,1637145632,vhdl,,,,id,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/IF.vhd,1641797974,vhdl,,,,instrf,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/LU.vhd,1639224395,vhdl,,,,lu,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd,1638380265,vhdl,,,,mux1bits,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/RegStare.vhd,1638355536,vhdl,,,,regstare,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd,1638969201,vhdl,,,,rotate,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd,1638969361,vhdl,,,,sumsub,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC.vhd,1638362822,vhdl,,,,uc,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_div.vhd,1640029652,vhdl,,,,uc_div,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_mul.vhd,1639242351,vhdl,,,,uc_mul,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/comparator.vhd,1640017020,vhdl,,,,comparator,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/flags.vhd,1638726953,vhdl,,,,flags,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd,1639242734,vhdl,,,,inmultitor,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/mux_32.vhd,1640017010,vhdl,,,,mux_32,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/registru.vhd,1638726982,vhdl,,,,registru,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezImpartire.vhd,1640017027,vhdl,,,,rezimpartire,,,,,,,,
+D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezInmultire.vhd,1638726931,vhdl,,,,rezinmultire,,,,,,,,

@@ -1,0 +1,802 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Dec 20 18:25:01 2021
+# Process ID: 12300
+# Current directory: D:/an3/SSC/proiect/ALU/ALU.runs/synth_1
+# Command line: vivado.exe -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: D:/an3/SSC/proiect/ALU/ALU.runs/synth_1/ALU.vds
+# Journal file: D:/an3/SSC/proiect/ALU/ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace
+Command: synth_design -top ALU -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2476 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 688.297 ; gain = 238.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:45]
+INFO: [Synth 8-3491] module 'InstrF' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/IF.vhd:5' bound to instance 'c1' of component 'InstrF' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'InstrF' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/IF.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'InstrF' (1#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/IF.vhd:15]
+INFO: [Synth 8-3491] module 'ID' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ID.vhd:34' bound to instance 'c2' of component 'ID' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:202]
+INFO: [Synth 8-638] synthesizing module 'ID' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ID.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'ID' (2#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ID.vhd:41]
+INFO: [Synth 8-3491] module 'UC' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC.vhd:34' bound to instance 'c3' of component 'UC' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'UC' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'UC' (3#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC.vhd:42]
+INFO: [Synth 8-3491] module 'LU' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/LU.vhd:37' bound to instance 'c4' of component 'LU' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:204]
+INFO: [Synth 8-638] synthesizing module 'LU' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/LU.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'LU' (4#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/LU.vhd:49]
+INFO: [Synth 8-3491] module 'SumSub' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:37' bound to instance 'c5' of component 'SumSub' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'SumSub' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:47]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c1' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'oneBitAdder' (5#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:41]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c2' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:60]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c3' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:61]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c4' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:62]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c5' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:63]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c6' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:64]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c7' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:65]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c8' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:66]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c9' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:67]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c10' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:68]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c11' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:69]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c12' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:70]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c13' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:71]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c14' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:72]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c15' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:73]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c16' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:74]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c17' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:75]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c18' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:76]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c19' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:77]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c20' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:78]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c21' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:79]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c22' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:80]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c23' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:81]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c24' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:82]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c25' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:83]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c26' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:84]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c27' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:85]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c28' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:86]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c29' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:87]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c30' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:88]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c31' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:89]
+INFO: [Synth 8-3491] module 'oneBitAdder' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:34' bound to instance 'c32' of component 'oneBitAdder' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:90]
+INFO: [Synth 8-256] done synthesizing module 'SumSub' (6#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:47]
+INFO: [Synth 8-3491] module 'Rotate' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:37' bound to instance 'c6' of component 'Rotate' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:206]
+INFO: [Synth 8-638] synthesizing module 'Rotate' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:45]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c1' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:42]
+INFO: [Synth 8-226] default block is never used [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'Mux1bitS' (7#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:42]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c2' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:59]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c3' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:60]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c4' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:61]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c5' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:62]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c6' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:63]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c7' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:64]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c8' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:65]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c9' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:66]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c10' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:67]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c11' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:68]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c12' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:69]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c13' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:70]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c14' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:71]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c15' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:72]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c16' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:73]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c17' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:74]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c18' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:75]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c19' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:76]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c20' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:77]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c21' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:78]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c22' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:79]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c23' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:80]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c24' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:81]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c25' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:82]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c26' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:83]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c27' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:84]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c28' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:85]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c29' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:86]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c30' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:87]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c31' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:88]
+INFO: [Synth 8-3491] module 'Mux1bitS' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Mux1bitS.vhd:34' bound to instance 'c32' of component 'Mux1bitS' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'Rotate' (8#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/Rotate.vhd:45]
+INFO: [Synth 8-3491] module 'inmultitor' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:37' bound to instance 'c7' of component 'inmultitor' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'inmultitor' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:53]
+INFO: [Synth 8-3491] module 'SumSub' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:37' bound to instance 'c1' of component 'SumSub' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:157]
+INFO: [Synth 8-3491] module 'UC_mul' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_mul.vhd:35' bound to instance 'c2' of component 'UC_mul' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'UC_mul' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_mul.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'UC_mul' (9#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_mul.vhd:47]
+INFO: [Synth 8-3491] module 'registru' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/registru.vhd:34' bound to instance 'c3' of component 'registru' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'registru' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/registru.vhd:41]
+WARNING: [Synth 8-2897] clock signal used as data [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/registru.vhd:48]
+WARNING: [Synth 8-2897] clock signal used as data [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/registru.vhd:48]
+WARNING: [Synth 8-2897] clock signal used as data [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/registru.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'registru' (10#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/registru.vhd:41]
+INFO: [Synth 8-3491] module 'rezInmultire' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezInmultire.vhd:36' bound to instance 'c4' of component 'rezInmultire' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'rezInmultire' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezInmultire.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'rezInmultire' (11#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezInmultire.vhd:49]
+INFO: [Synth 8-3491] module 'flags' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/flags.vhd:34' bound to instance 'c6' of component 'flags' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'flags' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/flags.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'flags' (12#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/flags.vhd:40]
+INFO: [Synth 8-3491] module 'flags' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/flags.vhd:34' bound to instance 'c7' of component 'flags' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'inmultitor' (13#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:53]
+INFO: [Synth 8-3491] module 'RegStare' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/RegStare.vhd:34' bound to instance 'c8' of component 'RegStare' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:208]
+INFO: [Synth 8-638] synthesizing module 'RegStare' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/RegStare.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'RegStare' (14#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/RegStare.vhd:42]
+INFO: [Synth 8-3491] module 'div' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:28' bound to instance 'c9' of component 'div' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'div' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:43]
+INFO: [Synth 8-3491] module 'mux_32' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/mux_32.vhd:34' bound to instance 'c4' of component 'mux_32' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'mux_32' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/mux_32.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'mux_32' (15#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/mux_32.vhd:42]
+INFO: [Synth 8-3491] module 'comparator' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/comparator.vhd:34' bound to instance 'c5' of component 'comparator' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'comparator' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/comparator.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'comparator' (16#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/comparator.vhd:41]
+INFO: [Synth 8-3491] module 'UC_div' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_div.vhd:28' bound to instance 'c1' of component 'UC_div' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'UC_div' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_div.vhd:42]
+WARNING: [Synth 8-6014] Unused sequential element r_reg was removed.  [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_div.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'UC_div' (17#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/UC_div.vhd:42]
+INFO: [Synth 8-3491] module 'rezImpartire' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezImpartire.vhd:36' bound to instance 'c2' of component 'rezImpartire' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'rezImpartire' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezImpartire.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'rezImpartire' (18#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/rezImpartire.vhd:50]
+INFO: [Synth 8-3491] module 'SumSub' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/SumSub.vhd:37' bound to instance 'c3' of component 'SumSub' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:134]
+INFO: [Synth 8-3491] module 'mux_32' declared at 'D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/mux_32.vhd:34' bound to instance 'c7' of component 'mux_32' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:135]
+WARNING: [Synth 8-614] signal 'rests' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:137]
+WARNING: [Synth 8-614] signal 'cat' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:137]
+WARNING: [Synth 8-614] signal 'zzero' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:137]
+WARNING: [Synth 8-614] signal 'sx' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:137]
+WARNING: [Synth 8-614] signal 'sy' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:137]
+WARNING: [Synth 8-3848] Net ovf in module/entity div does not have driver. [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'div' (19#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:43]
+WARNING: [Synth 8-614] signal 'szd' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:210]
+WARNING: [Synth 8-614] signal 'rdyd' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:210]
+WARNING: [Synth 8-614] signal 'signM' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:222]
+WARNING: [Synth 8-614] signal 'szd' is read in the process but is not in the sensitivity list [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:222]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (20#1) [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:45]
+WARNING: [Synth 8-3331] design mux_32 has unconnected port s
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[31]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[30]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[29]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[28]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[27]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[26]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[25]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[24]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[23]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[22]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[21]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[20]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[19]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[18]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[17]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[16]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[15]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[14]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[13]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[12]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[11]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[10]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[9]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[8]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[7]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[6]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[5]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[4]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[3]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[2]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[1]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port B[0]
+WARNING: [Synth 8-3331] design rezImpartire has unconnected port cOut
+WARNING: [Synth 8-3331] design div has unconnected port ovf
+WARNING: [Synth 8-3331] design div has unconnected port clk
+WARNING: [Synth 8-3331] design div has unconnected port start
+WARNING: [Synth 8-3331] design registru has unconnected port clk
+WARNING: [Synth 8-3331] design inmultitor has unconnected port clk1
+WARNING: [Synth 8-3331] design inmultitor has unconnected port start
+WARNING: [Synth 8-3331] design Mux1bitS has unconnected port en
+WARNING: [Synth 8-3331] design Rotate has unconnected port op[2]
+WARNING: [Synth 8-3331] design Rotate has unconnected port op[1]
+WARNING: [Synth 8-3331] design Rotate has unconnected port op[0]
+WARNING: [Synth 8-3331] design ALU has unconnected port clk1
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 759.941 ; gain = 310.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 759.941 ; gain = 310.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 759.941 ; gain = 310.176
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-5546] ROM "mem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 's_reg' in module 'UC_mul'
+INFO: [Synth 8-802] inferred FSM for state register 's_reg' in module 'UC_div'
+WARNING: [Synth 8-327] inferring latch for variable 'sRez_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/LU.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 'rdy_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/LU.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 'rez_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/LU.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 's_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:48]
+WARNING: [Synth 8-327] inferring latch for variable 'co_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/1bitAdder.vhd:49]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                            00001 |                              000
+                 initreg |                            00010 |                              001
+                 verifb0 |                            00100 |                              010
+                   adder |                            01000 |                              011
+                 shifter |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_reg' using encoding 'one-hot' in module 'UC_mul'
+WARNING: [Synth 8-327] inferring latch for variable 'starts_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/inmultitor.vhd:158]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                              000 |                              000
+                 initreg |                              001 |                              001
+                   verif |                              010 |                              011
+             substracter |                              011 |                              010
+                    ends |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_reg' using encoding 'sequential' in module 'UC_div'
+WARNING: [Synth 8-327] inferring latch for variable 'zero_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:143]
+WARNING: [Synth 8-327] inferring latch for variable 'rdy_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:142]
+WARNING: [Synth 8-327] inferring latch for variable 'rez_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:140]
+WARNING: [Synth 8-327] inferring latch for variable 'sz_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/DIV.vhd:144]
+WARNING: [Synth 8-327] inferring latch for variable 'rezultat_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:226]
+WARNING: [Synth 8-327] inferring latch for variable 'sz_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:229]
+WARNING: [Synth 8-327] inferring latch for variable 'sz_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:213]
+WARNING: [Synth 8-327] inferring latch for variable 'start_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:207]
+WARNING: [Synth 8-327] inferring latch for variable 'start_div_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:209]
+WARNING: [Synth 8-327] inferring latch for variable 'sign_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:208]
+WARNING: [Synth 8-327] inferring latch for variable 'sign_reg' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:229]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 759.941 ; gain = 310.176
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 96    
+	   2 Input      1 Bit         XORs := 96    
++---Registers : 
+	               65 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  33 Input     68 Bit        Muxes := 1     
+	   2 Input     65 Bit        Muxes := 2     
+	   4 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 4     
+	   5 Input      5 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   5 Input      3 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 234   
+	   5 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 8     
+Module InstrF 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	  33 Input     68 Bit        Muxes := 1     
+Module UC 
+Detailed RTL Component Info : 
++---Muxes : 
+	  13 Input      3 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+Module LU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     64 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module oneBitAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module Mux1bitS 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module UC_mul 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 4     
+	   5 Input      5 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+Module registru 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module rezInmultire 
+Detailed RTL Component Info : 
++---Registers : 
+	               65 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     65 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module mux_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module UC_div 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 4     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 1     
+Module rezImpartire 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design div has unconnected port ovf
+WARNING: [Synth 8-3331] design div has unconnected port clk
+WARNING: [Synth 8-3331] design div has unconnected port start
+WARNING: [Synth 8-3331] design inmultitor has unconnected port clk1
+WARNING: [Synth 8-3331] design inmultitor has unconnected port start
+WARNING: [Synth 8-3331] design Rotate has unconnected port op[2]
+WARNING: [Synth 8-3331] design Rotate has unconnected port op[1]
+WARNING: [Synth 8-3331] design Rotate has unconnected port op[0]
+WARNING: [Synth 8-3331] design ALU has unconnected port clk1
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[5]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[6]' (FDE) to 'c7/c3/Q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[7]' (FDE) to 'c7/c3/Q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[8]' (FDE) to 'c7/c3/Q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[9]' (FDE) to 'c7/c3/Q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[11]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[12]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[13]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[14]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[15]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[16]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[17]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[18]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[19]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[20]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[21]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[22]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[23]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[24]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[25]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[26]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[27]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[28]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[29]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c7/c3/Q_reg[30]' (FDE) to 'c7/c3/Q_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c7/c3/Q_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c9/sz_reg )
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[6]' (LD) to 'c4/rez_reg[7]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[7]' (LD) to 'c4/rez_reg[8]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[8]' (LD) to 'c4/rez_reg[9]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[11]' (LD) to 'c4/rez_reg[12]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[12]' (LD) to 'c4/rez_reg[13]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[13]' (LD) to 'c4/rez_reg[14]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[14]' (LD) to 'c4/rez_reg[15]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[15]' (LD) to 'c4/rez_reg[16]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[16]' (LD) to 'c4/rez_reg[17]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[17]' (LD) to 'c4/rez_reg[18]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[18]' (LD) to 'c4/rez_reg[19]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[19]' (LD) to 'c4/rez_reg[20]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[20]' (LD) to 'c4/rez_reg[21]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[21]' (LD) to 'c4/rez_reg[22]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[22]' (LD) to 'c4/rez_reg[23]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[23]' (LD) to 'c4/rez_reg[24]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[24]' (LD) to 'c4/rez_reg[25]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[25]' (LD) to 'c4/rez_reg[26]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[26]' (LD) to 'c4/rez_reg[27]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[27]' (LD) to 'c4/rez_reg[28]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[28]' (LD) to 'c4/rez_reg[29]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[29]' (LD) to 'c4/rez_reg[30]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[30]' (LD) to 'c4/rez_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[32]' (LD) to 'c4/rez_reg[33]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[33]' (LD) to 'c4/rez_reg[34]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[34]' (LD) to 'c4/rez_reg[35]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[35]' (LD) to 'c4/rez_reg[36]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[36]' (LD) to 'c4/rez_reg[37]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[37]' (LD) to 'c4/rez_reg[38]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[38]' (LD) to 'c4/rez_reg[39]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[39]' (LD) to 'c4/rez_reg[40]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[40]' (LD) to 'c4/rez_reg[41]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[41]' (LD) to 'c4/rez_reg[42]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[42]' (LD) to 'c4/rez_reg[43]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[43]' (LD) to 'c4/rez_reg[44]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[44]' (LD) to 'c4/rez_reg[45]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[45]' (LD) to 'c4/rez_reg[46]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[46]' (LD) to 'c4/rez_reg[47]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[47]' (LD) to 'c4/rez_reg[48]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[48]' (LD) to 'c4/rez_reg[49]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[49]' (LD) to 'c4/rez_reg[50]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[50]' (LD) to 'c4/rez_reg[51]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[51]' (LD) to 'c4/rez_reg[52]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[52]' (LD) to 'c4/rez_reg[53]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[53]' (LD) to 'c4/rez_reg[54]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[54]' (LD) to 'c4/rez_reg[55]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[55]' (LD) to 'c4/rez_reg[56]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[56]' (LD) to 'c4/rez_reg[57]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[57]' (LD) to 'c4/rez_reg[58]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[58]' (LD) to 'c4/rez_reg[59]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[59]' (LD) to 'c4/rez_reg[60]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[60]' (LD) to 'c4/rez_reg[61]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[61]' (LD) to 'c4/rez_reg[62]'
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[62]' (LD) to 'c4/rez_reg[63]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c4/rez_reg[63] )
+WARNING: [Synth 8-3332] Sequential element (c4/rez_reg[63]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c1/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c1/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c2/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c2/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c3/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c3/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c4/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c4/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c5/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c5/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c6/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c6/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c7/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c7/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c8/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c8/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c9/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c9/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c10/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c10/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c11/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c11/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c12/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c12/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c13/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c13/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c14/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c14/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c15/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c15/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c16/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c16/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c17/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c17/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c18/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c18/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c19/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c19/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c20/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c20/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c21/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c21/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c22/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c22/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c23/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c23/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c24/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c24/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c25/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c25/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c26/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c26/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c27/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c27/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c28/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c28/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c29/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c29/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c30/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c30/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c31/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c31/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c32/s_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c7/c1/c32/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c9/c3/c32/co_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c9/zero_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (c9/sz_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (start_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (start_div_reg) is unused and will be removed from module ALU.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'c4/rez_reg[5]' (LD) to 'c4/rez_reg[10]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4649] Removing BlackBox instance c8 of module RegStare having unconnected or no output ports
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5753] loadless multi-driven net sign with 1st driver pin 'sign_reg__0/Q' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:229]
+WARNING: [Synth 8-5753] loadless multi-driven net sign with 2nd driver pin 'sign_reg/Q' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:208]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin sz_OBUF with 1st driver pin 'sz_reg__0/Q' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:213]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin sz_OBUF with 2nd driver pin 'sz_reg/Q' [D:/an3/SSC/proiect/ALU/ALU.srcs/sources_1/new/ALU.vhd:229]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        1|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     7|
+|2     |CARRY4 |    28|
+|3     |LUT1   |     6|
+|4     |LUT2   |    12|
+|5     |LUT3   |    32|
+|6     |LUT4   |   135|
+|7     |LUT5   |   142|
+|8     |LUT6   |    89|
+|9     |FDCE   |    37|
+|10    |FDRE   |   123|
+|11    |FDSE   |     5|
+|12    |LD     |   270|
+|13    |OBUF   |    65|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+---------------+------+
+|      |Instance  |Module         |Cells |
++------+----------+---------------+------+
+|1     |top       |               |   951|
+|2     |  c1      |InstrF         |   250|
+|3     |  c4      |LU             |    10|
+|4     |  c5      |SumSub         |    64|
+|5     |    c1    |oneBitAdder_32 |     2|
+|6     |    c10   |oneBitAdder_33 |     2|
+|7     |    c11   |oneBitAdder_34 |     2|
+|8     |    c12   |oneBitAdder_35 |     2|
+|9     |    c13   |oneBitAdder_36 |     2|
+|10    |    c14   |oneBitAdder_37 |     2|
+|11    |    c15   |oneBitAdder_38 |     2|
+|12    |    c16   |oneBitAdder_39 |     2|
+|13    |    c17   |oneBitAdder_40 |     2|
+|14    |    c18   |oneBitAdder_41 |     2|
+|15    |    c19   |oneBitAdder_42 |     2|
+|16    |    c2    |oneBitAdder_43 |     2|
+|17    |    c20   |oneBitAdder_44 |     2|
+|18    |    c21   |oneBitAdder_45 |     2|
+|19    |    c22   |oneBitAdder_46 |     2|
+|20    |    c23   |oneBitAdder_47 |     2|
+|21    |    c24   |oneBitAdder_48 |     2|
+|22    |    c25   |oneBitAdder_49 |     2|
+|23    |    c26   |oneBitAdder_50 |     2|
+|24    |    c27   |oneBitAdder_51 |     2|
+|25    |    c28   |oneBitAdder_52 |     2|
+|26    |    c29   |oneBitAdder_53 |     2|
+|27    |    c3    |oneBitAdder_54 |     2|
+|28    |    c30   |oneBitAdder_55 |     2|
+|29    |    c31   |oneBitAdder_56 |     2|
+|30    |    c32   |oneBitAdder_57 |     2|
+|31    |    c4    |oneBitAdder_58 |     2|
+|32    |    c5    |oneBitAdder_59 |     2|
+|33    |    c6    |oneBitAdder_60 |     2|
+|34    |    c7    |oneBitAdder_61 |     2|
+|35    |    c8    |oneBitAdder_62 |     2|
+|36    |    c9    |oneBitAdder_63 |     2|
+|37    |  c7      |inmultitor     |   129|
+|38    |    c2    |UC_mul         |    26|
+|39    |    c3    |registru       |    12|
+|40    |    c4    |rezInmultire   |    90|
+|41    |  c9      |div            |   355|
+|42    |    c1    |UC_div         |   152|
+|43    |    c2    |rezImpartire   |    72|
+|44    |    c3    |SumSub_0       |    63|
+|45    |      c1  |oneBitAdder    |     2|
+|46    |      c10 |oneBitAdder_1  |     2|
+|47    |      c11 |oneBitAdder_2  |     2|
+|48    |      c12 |oneBitAdder_3  |     2|
+|49    |      c13 |oneBitAdder_4  |     2|
+|50    |      c14 |oneBitAdder_5  |     2|
+|51    |      c15 |oneBitAdder_6  |     2|
+|52    |      c16 |oneBitAdder_7  |     2|
+|53    |      c17 |oneBitAdder_8  |     2|
+|54    |      c18 |oneBitAdder_9  |     2|
+|55    |      c19 |oneBitAdder_10 |     2|
+|56    |      c2  |oneBitAdder_11 |     2|
+|57    |      c20 |oneBitAdder_12 |     2|
+|58    |      c21 |oneBitAdder_13 |     2|
+|59    |      c22 |oneBitAdder_14 |     2|
+|60    |      c23 |oneBitAdder_15 |     2|
+|61    |      c24 |oneBitAdder_16 |     2|
+|62    |      c25 |oneBitAdder_17 |     2|
+|63    |      c26 |oneBitAdder_18 |     2|
+|64    |      c27 |oneBitAdder_19 |     2|
+|65    |      c28 |oneBitAdder_20 |     2|
+|66    |      c29 |oneBitAdder_21 |     2|
+|67    |      c3  |oneBitAdder_22 |     2|
+|68    |      c30 |oneBitAdder_23 |     2|
+|69    |      c31 |oneBitAdder_24 |     2|
+|70    |      c32 |oneBitAdder_25 |     1|
+|71    |      c4  |oneBitAdder_26 |     2|
+|72    |      c5  |oneBitAdder_27 |     2|
+|73    |      c6  |oneBitAdder_28 |     2|
+|74    |      c7  |oneBitAdder_29 |     2|
+|75    |      c8  |oneBitAdder_30 |     2|
+|76    |      c9  |oneBitAdder_31 |     2|
+|77    |    c5    |comparator     |     4|
++------+----------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2 critical warnings and 157 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 939.992 ; gain = 490.227
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 950.375 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 298 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1028.305 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  LD => LDCE: 270 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+224 Infos, 157 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1028.305 ; gain = 603.402
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1028.305 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/an3/SSC/proiect/ALU/ALU.runs/synth_1/ALU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_utilization_synth.rpt -pb ALU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 20 18:25:28 2021...
